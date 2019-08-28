@@ -1,0 +1,169 @@
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+	zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 1024px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+
+.name-text{
+	font-size:3em;
+}
+
+.hello-text{
+	font-size:2.5em;
+}
+
+.designation {
+	font-size:1.5em;
+}
+
+.web-cons {
+font-size:2em;	
+}
+
+img.img-center{
+	
+	width:80%;
+margin-left:30px;
+	}
+
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+
+	.name-text{
+	font-size:2em;
+
+
+}
+
+.hello-text{
+	font-size:1.5em;
+
+}
+
+.designation {
+	font-size:.9em;
+text-align:left;
+
+}
+
+.web-cons {
+	font-size:1.5em;
+}
+
+
+}
+
+@media only screen and (max-width: 560px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+
+	.name-text{
+	font-size:2em;
+
+
+
+}
+
+.hello-text{
+	font-size:1em;
+
+
+}
+
+.designation {
+	font-size:.5em;
+
+
+}
+
+.web-cons {
+	font-size:1em;
+}
+img.img-center{
+	
+	width:50%;
+margin-left:75px;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+
+	.name-text{
+	font-size:2em;
+text-align:center;
+
+
+}
+
+.hello-text{
+	font-size:1em;
+text-align:center;
+
+}
+
+.designation {
+	font-size:.5em;
+text-align:center;
+
+}
+
+.web-cons {
+	font-size:1em;
+}
+img.img-center{
+	display:block;
+	width:30%;
+  margin:auto;
+	}
+
+}
+
+
+

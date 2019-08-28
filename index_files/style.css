@@ -1,0 +1,71 @@
+
+@import 'https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700';
+
+.bg-color{
+    background-color: #000;
+}
+.name-text {
+    padding:0 0 .2em 0;
+    color: #FFD900;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:4.3em;
+}
+.hello-text {
+    font-size:2.3em;
+    color: #FFD900;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.header {
+    padding:1em 0;
+}
+.col {
+    background: none;
+    padding:1em 0;
+    text-align:left;
+}
+.designation {
+    font-size:1.7em;
+    border: dotted 1px #fff;
+    padding: .5em;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+}
+
+.web-cons {
+    font-size:50px;
+    color:#000;
+    font-weight: 700;
+    padding: .1em;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+
+.main-container-2 {
+   /* background-image: url(images/cons-bg.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: auto;*/
+    background-color: #FFD900;
+    margin-top: 4em;
+}
+
+.container {
+    margin: 0 auto;
+    max-width:1080px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+
+
